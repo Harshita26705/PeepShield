@@ -3,24 +3,26 @@ Peepshield is a Chrome extension designed to protect users from shoulder surfing
 
 
 **Core Features**
-🧠 AI-Powered Eye Detection
+
+🧠 AI-Powered Eye Detection:
 Uses a lightweight ML model to identify multiple pairs of eyes using your webcam.
 
-🔒 Real-Time Privacy Mode
+🔒 Real-Time Privacy Mode:
 Automatically blurs sensitive elements on the screen when a second person is detected.
 
-🖥️ Chrome Extension
+🖥️ Chrome Extension:
 Easily toggle protection on/off while browsing.
 
-⚙️ Customizable Sensitivity
+⚙️ Customizable Sensitivity:
 Set detection thresholds for privacy level adjustments.
 
 
 **🚀 Use Cases**
-Working in cafes, co-working spaces, libraries, airports, or metro stations
+
+Working in cafes, co-working spaces, libraries, airports, or metro stations.
 
 Reading or writing sensitive content (emails, passwords, research, etc.)
 
-Students using devices in crowded classrooms or hostels
+Students using devices in crowded classrooms or hostels.
 
-Professionals dealing with client, finance, or legal data
+Professionals dealing with client, finance, or legal data.
