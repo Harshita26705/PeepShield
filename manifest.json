@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Anti-Peep Mode",
+  "version": "1.0",
+  "description": "Blurs screen when multiple faces are detected to protect privacy.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["face-api.min.js", "models/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
